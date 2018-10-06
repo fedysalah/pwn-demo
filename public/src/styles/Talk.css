@@ -1,0 +1,71 @@
+.talk-container .talk-header {
+  color: #665f58;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0; }
+
+.talk-container .talk-content strong {
+  font-weight: 600; }
+
+.talk-container .talk-content ul {
+  padding-left: 30px;
+  list-style-type: disc; }
+  .talk-container .talk-content ul li {
+    list-style-type: disc; }
+
+.talk-container .talk-info {
+  color: #79b3af; }
+  .talk-container .talk-info .talk-type {
+    font-weight: 400;
+    display: block; }
+  .talk-container .talk-info .talk-author {
+    margin-bottom: 18px;
+    display: block; }
+    .talk-container .talk-info .talk-author a {
+      font-weight: 500;
+      color: #eb643b; }
+  .talk-container .talk-info .talk-room {
+    font-weight: 300; }
+  .talk-container .talk-info .talk-time {
+    font-weight: 600; }
+
+.talk-container .talk-rating h6 {
+  font-size: 16px;
+  padding: 10px 10px;
+  color: #665f58;
+  border-bottom: 1px solid #e0e0e0; }
+
+.talk-container .talk-rating .rating {
+  border: none;
+  float: left; }
+
+.talk-container .talk-rating .rating > input {
+  display: none; }
+
+.talk-container .talk-rating .rating > label:before {
+  margin: 5px;
+  font-size: 2.5em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005"; }
+  @media only screen and (min-width: 993px) {
+    .talk-container .talk-rating .rating > label:before {
+      font-size: 1.25em; } }
+
+.talk-container .talk-rating .rating > .half:before {
+  content: "\f089";
+  position: absolute; }
+
+.talk-container .talk-rating .rating > label {
+  color: #ddd;
+  float: right; }
+
+.talk-container .talk-rating .rating > input:checked ~ label,
+.talk-container .talk-rating .rating:not(:checked) > label:hover,
+.talk-container .talk-rating .rating:not(:checked) > label:hover ~ label {
+  color: #eb643b; }
+
+.talk-container .talk-rating .rating > input:checked + label:hover,
+.talk-container .talk-rating .rating > input:checked ~ label:hover,
+.talk-container .talk-rating .rating > label:hover ~ input:checked ~ label,
+.talk-container .talk-rating .rating > input:checked ~ label:hover ~ label {
+  color: rgba(235, 100, 59, 0.9); }

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/icon-72x72.png">
+    <link rel="apple-touch-startup-image" href="/images/icon-128x128.png">
+
+    <title>PWN</title>
+    <link href="/css/bundle/pwn.css" rel="stylesheet">
+    <style>
+      html {
+        background-color: #93e3db;
+        height: 100%;
+      }
+      @keyframes loadingAnimation {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+      }
+      @-o-keyframes loadingAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+      }
+      @-moz-keyframes loadingAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+      }
+      @-webkit-keyframes loadingAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+      }
+      .loader {
+          position: absolute;
+          top: 200px;
+          left: calc(50% - 50px);
+          opacity:1;  
+          -webkit-animation: loadingAnimation 2.5s infinite;
+          -moz-animation: loadingAnimation 2.5s infinite;
+          -o-animation: loadingAnimation 2.5s infinite;
+          animation: loadingAnimation 2.5s infinite;
+          background: url('/images/logo.png') no-repeat;
+          background-size: contain;
+          width: 100px;
+          height: 100px;
+      }
+      .loader img {
+        width: 100px;
+        height: auto;
+      }
+    </style>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root">
+  <div id="shell">
+    <div style="position: fixed;z-index: 10;height: 64px;line-height: 64px;color: #555;background-color: #fff;width: 100%;top: 0; left: 0;">
+    </div>
+    <div class="loader">
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/javascripts/bundle/pwn.js" async></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+nav {
+  position: fixed;
+  z-index: 10; }
+  nav ul a {
+    color: #faf7f0;
+    padding: 0 25px; }
+  nav .back {
+    font-size: 34px;
+    padding: 0 8px;
+    left: 10px;
+    position: absolute;
+    z-index: 30; }
+    @media only screen and (min-width: 601px) {
+      nav .back {
+        display: none; } }
+    nav .back i {
+      height: auto; }
+  nav .location-container {
+    font-size: 1.8rem;
+    margin-left: 18px;
+    margin-right: 0px;
+    z-index: 30; }
+    @media only screen and (max-width: 600px) {
+      nav .location-container {
+        margin-top: 12px; } }
+  nav div.brand-logo {
+    display: flex;
+    top: 3px;
+    color: #faf7f0;
+    font-size: 1.8rem; }
+    @media only screen and (min-width: 601px) {
+      nav div.brand-logo {
+        top: 7px; } }
+    @media only screen and (max-width: 600px) {
+      nav div.brand-logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        right: 0; } }
+    nav div.brand-logo .brand-title {
+      display: none; }
+      @media only screen and (min-width: 601px) {
+        nav div.brand-logo .brand-title {
+          display: inline-block; } }
+    nav div.brand-logo .navigation-title {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      width: 100%; }
+      @media only screen and (min-width: 601px) {
+        nav div.brand-logo .navigation-title {
+          display: none; } }
+    nav div.brand-logo .jug-logo {
+      margin-right: -10px;
+      width: 50px;
+      height: 54px; }
+      nav div.brand-logo .jug-logo.offline {
+        opacity: 0.3; }
+    nav div.brand-logo.right {
+      right: 1.5rem !important; }
+  @media only screen and (max-width: 600px) {
+    nav ul#nav-desktop {
+      display: none; } }
+  nav ul#nav-desktop li a.active {
+    background-color: rgba(0, 0, 0, 0.1); }
+  nav ul#nav-desktop #new-version-desktop div {
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative; }
+    nav ul#nav-desktop #new-version-desktop div i.fa {
+      display: flex;
+      align-items: center;
+      font-size: 38px; }
+    nav ul#nav-desktop #new-version-desktop div span.badge {
+      position: absolute;
+      min-width: 21px;
+      padding: 0;
+      left: 4px;
+      border-radius: 12px;
+      top: 5px;
+      margin-left: 0px; }
+  nav ul#nav-mobile {
+    font-size: 30px; }
+    @media only screen and (min-width: 601px) {
+      nav ul#nav-mobile {
+        display: none; } }
+    nav ul#nav-mobile .tab {
+      font-size: 24px; }
+    @media only screen and (max-width: 600px) {
+      nav ul#nav-mobile {
+        background: #79b3af;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 56px; } }
+    nav ul#nav-mobile li a.active {
+      background-color: rgba(0, 0, 0, 0.1); }
+    nav ul#nav-mobile #new-version-mobile div {
+      padding: 0 15px;
+      cursor: pointer;
+      position: relative; }
+      nav ul#nav-mobile #new-version-mobile div i.fa {
+        display: flex;
+        align-items: center;
+        font-size: 30px; }
+      nav ul#nav-mobile #new-version-mobile div span.badge {
+        position: absolute;
+        min-width: 21px;
+        padding: 0;
+        left: 4px;
+        border-radius: 12px;
+        top: 5px;
+        margin-left: 0px; }
+        @media only screen and (max-width: 600px) {
+          nav ul#nav-mobile #new-version-mobile div span.badge {
+            top: 6px; } }
+
+.connection-message {
+  opacity: 0;
+  position: absolute;
+  top: 56px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #eb643b;
+  -webkit-transition: opacity 1s;
+  /* Safari */
+  transition: opacity 1s; }
+  @media only screen and (min-width: 601px) {
+    .connection-message {
+      top: 64px; } }
+  .connection-message.offline {
+    background-color: #665f58; }
+  .connection-message.show {
+    opacity: 1 !important; }
