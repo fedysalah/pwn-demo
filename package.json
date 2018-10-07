@@ -9,29 +9,17 @@
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "build": "rm -rf ./public/javascripts/*  &&  rm -rf ./public/css/*  && rm -f ./public/service-worker.js && yarn build-css &&  yarn bundle",
-    "build-dev": "rm -rf ./public/javascripts/* &&  rm -rf ./public/css/*  && rm -f ./public/service-worker.js && yarn build-css && yarn bundle-dev",
-    "start": "yarn build && node server",
-    "start-dev": "MODE=DEV yarn build-dev && MODE=DEV node server"
+    "build-dev": "rm -rf ./public/javascripts/* &&  rm -rf ./public/css/*  && rm -f ./public/service-worker.js && yarn build-css && yarn bundle-dev"
   },
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "compression": "^1.7.3",
     "dexie": "^2.0.4",
-    "express": "4.16.3",
-    "express-validator": "3.2.0",
     "font-awesome": "^4.7.0",
     "marked": "0.5.0",
-    "moment": "^2.22.2",
-    "node-fetch": "^2.1.2",
     "react": "^16.4.2",
     "react-dev-utils": "^5.0.2",
     "react-dom": "^16.4.2",
-    "react-router-dom": "^4.3.1",
-    "request": "^2.88.0",
-    "resolve": "1.6.0",
-    "web-push": "^3.3.1",
-    "whatwg-fetch": "2.0.3"
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
