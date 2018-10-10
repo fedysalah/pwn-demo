@@ -533,6 +533,126 @@ const jugtalks = [
 
 const talks = [
     {
+        "id": "lets-react",
+        "title": "Let's React",
+        "author": [
+            {
+                "id": "mathieu-ancelin",
+                "name": "Mathieu Ancelin",
+                "bio": "Mathieu ANCELIN est développeur chez SERLI et MacGyver chez SoUse, spécialisé dans la programmation web avec Scala, Java, JavaScript, des streams, de la data et cloud. Et s'il y du React, c'est encore mieux ;-) Vous pouvez régulièrement le croiser au Poitou-Charentes JUG."
+            }
+        ],
+        "type": "SEA",
+        "room": "La Taverne du Geek",
+        "time": "09/11/2018 18h30",
+        "description": "React est une librairie JavaScript développée par Facebook pour créer facilement des interfaces graphiques.\n\nLa particularité de React vient de son modèle de programmation orienté composant et de sa façon de décrire les vues de ces composants. Contrairement à d’autres librairies, ici pas de templates et de pseudo code, React permet d’utiliser la pleine expressivité de JavaScript et de bénéficier de toutes les features du langage, notamment tous les goodies apportés par ES2015.\n\nNous aborderons aussi par la suite l'implementation de Redux dans une app React."
+    },
+    {
+        "id": "adwords",
+        "title": "Adwords : optimisez vos campagnes pour booster votre ROI",
+        "author": [
+            {
+                "id": "pierre-gincheleau",
+                "name": "Pierre Gincheleau",
+                "bio": "Designer et développeur web indépendant, intervenant en communication visuelle et programmation web en Master Web éditorial à l'Université de Poitiers."
+            }
+        ],
+        "type": "SEA",
+        "room": "La Taverne du Geek",
+        "time": "07/12/2018 18h30",
+        "description": "Traffic Acquisition Manager chez l'annonceur, ancien Consultant SEO/SEA pour grands comptes. Intervenant en SEO/SEA pour le Master Web éditorial à l'Université de Poitiers. Certifié Adwords (Search, Display, Shopping), Bing Ads et Botify (analyse de logs SEO)."
+    },
+    {
+        "id": "ergonomie-maquettage-web",
+        "title": "Ergonomie et maquettage web",
+        "author": [
+            {
+                "id": "enguerran-weiss",
+                "name": "Enguerran Weiss",
+                "bio": "Designer et développeur web indépendant, intervenant en communication visuelle et programmation web en Master Web éditorial à l'Université de Poitiers."
+            }
+        ],
+        "type": "Création web",
+        "room": "La Taverne du Geek",
+        "time": "11/01/2018 18h30",
+        "description": "L'ergonomie web. Deux mots qui ressortent souvent sur le tapis (\"ta créa est pas ergonomique\", \"je trouve ce site vachement ergonomique\"), presqu'à chaque fois mis en rapport avec le maquettage web (comprenez : webdesign). Pourtant, si on devait compter le nombre de fois où le terme ergonomie / ergonomique est bien utilisé dans un projet, on pourrait le faire facilement sur une seule main. Cette conf sera un pretexte pour reprendre des bases de vocabulaire (ergonomie, expérience utilisateur), et de voir le lien possible avec le maquettage web. "
+    },
+    {
+        "id": "client-toujours-tort",
+        "title": "Table ronde : le client a-t-il vraiment toujours tort ?",
+        "author": [
+            {
+                "id": "pwn",
+                "name": "PWN",
+                "bio": "PWN est la nouvelle association venant enrichir le paysage numérique Pictave. Constituée d’étudiants et de professionnels du web, cette association a pour objectif de **promouvoir le développement d’un web de qualité via différents événements** tels que des rencontres, des conférences, etc. Plusieurs sujets seront ainsi traités par ces biais, **de la gestion de projet à la conception, en passant par le design ou encore le développement.**\nPWN n’a pas vocation à devenir un réseau professionnel mais plutôt de **créer une émulation entre les différents acteurs du web Pictave autour d’événements ponctuels.** Il s’agit avant tout d’une association indépendante, à but non lucratif, ayant une forte visée pédagogique. C'est une structure offrant la possibilité d'échanger sur la qualité, les nouveautés et les possibilités offertes par le web, soutenue par des professionnels et intervenants compétents venus des quatre coins de la France."
+            }
+        ],
+        "type": "Discussion",
+        "room": "La Taverne du Geek",
+        "time": "01/02/2018 18h30",
+        "description": "Un des lieux communs les plus tenaces dans la production web est de partir du principe que lorsqu’il y a un problème, c’est de la faute du client. C’est un sujet de plainte récurrent et une source inépuisable pour des sites comme WebAgencyFail.\n\nMais soyons honnête, c’est vraiment toujours de la faute du client ? Est-ce qu’il n’y a pas d’autres pistes à creuser avant d’accuser le mec qui nous paye ?\n\nLa table ronde est un moment de débat et partage constructif autour d'une question ou d'une grande thématique du Web.\n\nTous les participants peuvent présenter leurs divers points de vue sur la question, et apporter des exemples ou contres exemples issues de leurs expériences professionnelles.\n\nEt n'oublions pas comme le disait si bien Mr Garisson dans South Park :\" Il n'y a pas de question stupide, juste des gens stupides !\"."
+    },
+    {
+        "id": "idee-mvp",
+        "title": "De votre idée géniale à votre minimum viable product",
+        "author": [
+            {
+                "id": "sebastien-prunier",
+                "name": "Sébastien Prunier",
+                "bio": "Sébastien travaille chez SERLI à Nantes et est actuellement Lead Developer du projet SoUse, l’agrégateur de services de l’économie collaborative. Les technos qu’il utilise en ce moment : Play2, Scala, React, Elastic, Mongo, Docker, Prismic, Auth0. Vous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp et plus récemment le Web2Day."
+            }
+        ],
+        "type": "Méthodologie",
+        "room": "La Taverne du Geek",
+        "time": "08/03/2018 18h30",
+        "description": "Et si on simplifiait l'auto-partage ? Et si on sauvait des vies ? Et si on demandait la Lune ? Vous avez une idée géniale, mais comment la concrétiser ? Au travers différents retours d'expérience, nous vous donnerons les clés pour arriver à développer votre Minimum Viable Product !\n\nAccès public et gratuit à la conférence."
+    },
+    {
+        "id": "or-logs-stack-elastic",
+        "title": "De l'or dans vos logs : la stack elastic",
+        "author": [
+            {
+                "id": "chris-woodrow",
+                "name": "Chris Woodrow",
+                "bio": "Après plusieurs années en tant que consultant et expert technique, Chris est maintenant architecte à la MAIF et Product Owner d'Opun, le socle de la plateforme de services MAIF. Initialement spécialisé dans la conception et le développement Java. Il s'est ensuite intéressé aux problématiques liées à la data, à la volumétrie et à la haute disponibilité."
+            }
+        ],
+        "type": "Dev",
+        "room": "La Taverne du Geek",
+        "time": "05/04/2018 18h30",
+        "description": "Venez découvrir comment valoriser vos logs à l'aide de la stack Elastic. Comprenez comment, lors d'une session de live coding, transformer votre fichier de logs en un dashboard permettant à vous ou à votre client de visualiser des données métier."
+    },
+    {
+        "id": "editeurs-ide",
+        "title": "Table ronde : éditeurs, ide, outils en ligne de commande",
+        "author": [
+            {
+                "id": "pwn",
+                "name": "PWN",
+                "bio": "PWN est la nouvelle association venant enrichir le paysage numérique Pictave. Constituée d’étudiants et de professionnels du web, cette association a pour objectif de **promouvoir le développement d’un web de qualité via différents événements** tels que des rencontres, des conférences, etc. Plusieurs sujets seront ainsi traités par ces biais, **de la gestion de projet à la conception, en passant par le design ou encore le développement.**\nPWN n’a pas vocation à devenir un réseau professionnel mais plutôt de **créer une émulation entre les différents acteurs du web Pictave autour d’événements ponctuels.** Il s’agit avant tout d’une association indépendante, à but non lucratif, ayant une forte visée pédagogique. C'est une structure offrant la possibilité d'échanger sur la qualité, les nouveautés et les possibilités offertes par le web, soutenue par des professionnels et intervenants compétents venus des quatre coins de la France."
+            }
+        ],
+        "type": "Dev - Méthodologie",
+        "room": "La Taverne du Geek",
+        "time": "03/05/2018 18h30",
+        "description": "Ce soir, on se montre tout. Comment on bosse, avec quoi, et au centre de tout ça, **l’éditeur de code, l’IDE, le terminal et ce qui gravite autour.** Des thèmes sympas pour Atom ? Une extension cool pour VSCode ? Vous êtes persuadé que Notepad++ > reste ? Vous êtes tombé sur un super outil en ligne de commande pour animer les logs Git ?\nC’est le moment de venir, avec vos ordis sous la main."
+    },
+    {
+        "id": "apero",
+        "title": "Apéro de fin de saison",
+        "author": [
+            {
+                "id": "pwn",
+                "name": "PWN",
+                "bio": "PWN est la nouvelle association venant enrichir le paysage numérique Pictave. Constituée d’étudiants et de professionnels du web, cette association a pour objectif de **promouvoir le développement d’un web de qualité via différents événements** tels que des rencontres, des conférences, etc. Plusieurs sujets seront ainsi traités par ces biais, **de la gestion de projet à la conception, en passant par le design ou encore le développement.**\nPWN n’a pas vocation à devenir un réseau professionnel mais plutôt de **créer une émulation entre les différents acteurs du web Pictave autour d’événements ponctuels.** Il s’agit avant tout d’une association indépendante, à but non lucratif, ayant une forte visée pédagogique. C'est une structure offrant la possibilité d'échanger sur la qualité, les nouveautés et les possibilités offertes par le web, soutenue par des professionnels et intervenants compétents venus des quatre coins de la France."
+            }
+        ],
+        "type": "Apéro",
+        "room": "La Taverne du Geek",
+        "time": "07/07/2018 18h30",
+        "description": "L'occasion pour nous de se retrouver entre adhérents autour d'un verre pour discuter de la saison passée, des différentes conférences, interventions, sujets abordés. Ou d'autres trucs. Ce sera aussi l'occasion de remercier pas mal de monde, et de revenir sur les points forts de la saison, ce qui vous a plu, et ce qui vous a moins plu.\nOn parlera aussi des premières propositions de conférences pour la prochaine saison 2018-2019 et on fera un gros cliffhanger à la fin, comme toute saison qui se respecte.\n\"C'est l'asso qui rince ? Bon ben je viens alors.\" Yohann P., mai 2018"
+    },
+    {
         "id": "pwa",
         "title": "Les Progressive Web App : Quoi ? Où ? Comment ? Pourquoi ?",
         "author": [
@@ -573,7 +693,7 @@ const request = require('request');
 const {speakerById} = require('./speakers')
 const worksheetId = 'od6'
 const retrieveTalks = () => new Promise((resolve, reject) => {
-    resolve(talks);
+    resolve(talks.reverse());
     //var options = {
     //    url: `https://spreadsheets.google.com/feeds/list/1umOR3dXf-v7w5aOWzVgZva4lM68Eo1YJTSpCCldRCBo/${worksheetId}/public/full?alt=json`,
     //    headers: {
