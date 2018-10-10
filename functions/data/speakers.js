@@ -264,6 +264,26 @@ const jugspeakers = [
 
 const speakers = [
     {
+        "id": "mathieu-ancelin",
+        "name": "Mathieu Ancelin",
+        "bio": "Mathieu ANCELIN est développeur chez SERLI et MacGyver chez SoUse, spécialisé dans la programmation web avec Scala, Java, JavaScript, des streams, de la data et cloud. Et s'il y du React, c'est encore mieux ;-) Vous pouvez régulièrement le croiser au Poitou-Charentes JUG."
+    },
+    {
+        "id": "pierre-gincheleau",
+        "name": "Pierre Gincheleau",
+        "bio": "Designer et développeur web indépendant, intervenant en communication visuelle et programmation web en Master Web éditorial à l'Université de Poitiers."
+    },
+    {
+        "id": "pwn",
+        "name": "PWN",
+        "bio": "PWN est la nouvelle association venant enrichir le paysage numérique Pictave. Constituée d’étudiants et de professionnels du web, cette association a pour objectif de **promouvoir le développement d’un web de qualité via différents événements** tels que des rencontres, des conférences, etc. Plusieurs sujets seront ainsi traités par ces biais, **de la gestion de projet à la conception, en passant par le design ou encore le développement.**\nPWN n’a pas vocation à devenir un réseau professionnel mais plutôt de **créer une émulation entre les différents acteurs du web Pictave autour d’événements ponctuels.** Il s’agit avant tout d’une association indépendante, à but non lucratif, ayant une forte visée pédagogique. C'est une structure offrant la possibilité d'échanger sur la qualité, les nouveautés et les possibilités offertes par le web, soutenue par des professionnels et intervenants compétents venus des quatre coins de la France."
+    },
+    {
+        "id": "sebastien-prunier",
+        "name": "Sébastien Prunier",
+        "bio": "Sébastien travaille chez SERLI à Nantes et est actuellement Lead Developer du projet SoUse, l’agrégateur de services de l’économie collaborative. Les technos qu’il utilise en ce moment : Play2, Scala, React, Elastic, Mongo, Docker, Prismic, Auth0. Vous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp et plus récemment le Web2Day."
+    },
+    {
         "id": "fedy-salah",
         "name": "Fedy Salah",
         "bio": "Ingénieur en Informatique, développeur fullstack expérimenté en JAVA et Web, je fais beaucoup de Javascript et je suis passionné par du Scala et la programmation fonctionnelle en général. Je suis aussi un grand fan de Metal, et je suis aussi un Spartan racer."
@@ -277,6 +297,11 @@ const speakers = [
         "id": "enguerran-weiss",
         "name": "Enguerran Weiss",
         "bio": "Designer et développeur web indépendant, intervenant en communication visuelle et programmation web en Master Web éditorial à l'Université de Poitiers."
+    },
+    {
+        "id": "chris-woodrow",
+        "name": "Chris Woodrow",
+        "bio": "Après plusieurs années en tant que consultant et expert technique, Chris est maintenant architecte à la MAIF et Product Owner d'Opun, le socle de la plateforme de services MAIF. Initialement spécialisé dans la conception et le développement Java. Il s'est ensuite intéressé aux problématiques liées à la data, à la volumétrie et à la haute disponibilité."
     }
 ]
 
