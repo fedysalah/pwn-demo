@@ -274,6 +274,11 @@ const speakers = [
         "bio": "Designer et développeur web indépendant, intervenant en communication visuelle et programmation web en Master Web éditorial à l'Université de Poitiers."
     },
     {
+        "id": "matthias-lamoureux",
+        "name": "Matthias Lamoureux",
+        "bio": "Matthias travaille chez Extrabat Logiciel en tant que Coach Agile et Développeur iOS. C’est un joueur invétéré, il s’est même récemment acheté une table qui déchire pour les soirées jeux au coin du feu. Et si vous êtes fan de Star Realms téléchargez immédiatement son scorer sur l’AppStore \\o/"
+    },
+    {
         "id": "pwn",
         "name": "PWN",
         "bio": "PWN est la nouvelle association venant enrichir le paysage numérique Pictave. Constituée d’étudiants et de professionnels du web, cette association a pour objectif de **promouvoir le développement d’un web de qualité via différents événements** tels que des rencontres, des conférences, etc. Plusieurs sujets seront ainsi traités par ces biais, **de la gestion de projet à la conception, en passant par le design ou encore le développement.**\nPWN n’a pas vocation à devenir un réseau professionnel mais plutôt de **créer une émulation entre les différents acteurs du web Pictave autour d’événements ponctuels.** Il s’agit avant tout d’une association indépendante, à but non lucratif, ayant une forte visée pédagogique. C'est une structure offrant la possibilité d'échanger sur la qualité, les nouveautés et les possibilités offertes par le web, soutenue par des professionnels et intervenants compétents venus des quatre coins de la France."
@@ -281,7 +286,7 @@ const speakers = [
     {
         "id": "sebastien-prunier",
         "name": "Sébastien Prunier",
-        "bio": "Sébastien travaille chez SERLI à Nantes et est actuellement Lead Developer du projet SoUse, l’agrégateur de services de l’économie collaborative. Les technos qu’il utilise en ce moment : Play2, Scala, React, Elastic, Mongo, Docker, Prismic, Auth0. Vous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp et plus récemment le Web2Day."
+        "bio": "Sébastien travaille chez Serli et est actuellement Lead Developer du projet SoUse, l’agrégateur de services de l’économie collaborative. Les technos qu’il utilise en ce moment : Play2, Scala, React, Elasticsearch, MongoDB. Vous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp Web2Day et plus récemment le PWN ;-)"
     },
     {
         "id": "fedy-salah",

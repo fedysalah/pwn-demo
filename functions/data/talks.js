@@ -686,6 +686,26 @@ const talks = [
         "room": "La Taverne du Geek",
         "time": "08/11/2018 18h30",
         "description": "Une feuille de style, c'est simple à écrire : on ne peut pas faire d'erreur (au pire, on les voit pas), et en dernier recours, on peut toujours utiliser un !important.\n\nMais alors, à quoi servent les méthodos et guidelines CSS telles que OOCSS, BEM, etc. ?\n\nAvec quelques retours d'expérience, on va voir, avec le cas de BEM, qu'il est toujours préférable de faire du CSS avec méthode."
+    },
+    {
+        "id": "soiree-jeux-agiles",
+        "title": "Soirée Jeux Agiles",
+        "author": [
+            {
+                "id": "matthias-lamoureux",
+                "name": "Matthias Lamoureux",
+                "bio": "Matthias travaille chez Extrabat Logiciel en tant que Coach Agile et Développeur iOS. C’est un joueur invétéré, il s’est même récemment acheté une table qui déchire pour les soirées jeux au coin du feu. Et si vous êtes fan de Star Realms téléchargez immédiatement son scorer sur l’AppStore \\o/"
+            },
+            {
+                "id": "sebastien-prunier",
+                "name": "Sébastien Prunier",
+                "bio": "Sébastien travaille chez SERLI à Nantes et est actuellement Lead Developer du projet SoUse, l’agrégateur de services de l’économie collaborative. Les technos qu’il utilise en ce moment : Play2, Scala, React, Elastic, Mongo, Docker, Prismic, Auth0. Vous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp et plus récemment le Web2Day."
+            }
+        ],
+        "type": "Méthodologie",
+        "room": "La Taverne du Geek",
+        "time": "06/12/2018 18h30",
+        "description": "Quand on vous parle d’agilité vous pensez immédiatement à votre niveau au Jenga ou à votre souplesse légendaire en Roller Freestyle ? Hé bé sachez que l’agilité peut aussi faire référence à un contexte un peu plus professionnel, notamment en ce qui concerne la manière de gérer des projets, informatiques ou non. Venez donc découvrir de manière ludique quelques bonnes pratiques agiles lors de cette soirée \"jeux agiles\"."
     }
 ]
 
