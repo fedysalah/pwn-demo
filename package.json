@@ -9,7 +9,8 @@
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "build": "rm -rf ./public/javascripts/*  &&  rm -rf ./public/css/*  && yarn build-css &&  yarn bundle",
-    "build-dev": "rm -rf ./public/javascripts/* &&  rm -rf ./public/css/*  && yarn build-css && yarn bundle-dev"
+    "build-dev": "rm -rf ./public/javascripts/* &&  rm -rf ./public/css/*  && yarn build-css && yarn bundle-dev",
+    "deploy": "yarn build && firebase deploy "
   },
   "license": "MIT",
   "dependencies": {
