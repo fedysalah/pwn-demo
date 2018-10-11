@@ -84,8 +84,6 @@ app.post('/api/syncRatings', function (req, res) {
     res.json({});
 });
 
-
-
 app.post('/api/notify', function (req, res) {
     const talkId = req.body.talkId;
     const subscribers = talkSubscribers.get(talkId) || [];
@@ -97,7 +95,7 @@ app.post('/api/notify', function (req, res) {
                .then(talk => {
                    console.log('_sub...', _sub);
                    const payload = JSON.stringify({
-                       title: 'Ce talk ve démarrer dans moins de 15 minutes',
+                      title: "Ce talk aura lieu 2m1 \\m/",
                        body: talk.title,
                        icon: '/images/logo.png',
                        data: {talkId: talk.id}
@@ -115,14 +113,14 @@ setInterval(() => {
     Promise.all([...talkSubscribers.keys()]
         .map(talkId => retrieveTalkById(talkId)
                 .then(talk => {
-                    let period = talk.time.split('-');
+                    const dueDate =  moment(talk.time, 'DD/MM/YYYY HH[h]mm');
                     const alreadyNotified = notified.get(talkId)||[];
-                    if (moment().add(15, 'minutes').isBetween(moment(period[0], "hh:mm"), moment(period[1], "hh:mm"))) {
+                    if (moment().add(1, 'day').isBetween(dueDate, dueDate.add(1, 'day'))) {
                         return Promise.all(talkSubscribers.get(talkId)
                             .filter(_sub => alreadyNotified.indexOf(_sub.endpoint)<0)
                             .map(_sub => {
                                 const payload = JSON.stringify({
-                                    title: 'Ce talk ve démarrer dans moins de 15 minutes',
+                                    title: "Ce talk aura lieu 2m1 \\m/",
                                     body: talk.title,
                                     icon: '/images/logo.png',
                                     data: {talkId: talk.id}
@@ -137,7 +135,7 @@ setInterval(() => {
                 }).catch(error => console.log(error))
         )
     )
-}, 60 * 1000);
+}, 3600 * 1000);
 
 
 module.exports = app;
