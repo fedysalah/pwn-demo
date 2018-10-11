@@ -84,9 +84,7 @@ app.post('/api/syncRatings', function (req, res) {
     res.json({});
 });
 
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
-});
+
 
 app.post('/api/notify', function (req, res) {
     const talkId = req.body.talkId;
